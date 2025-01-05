@@ -1,0 +1,70 @@
+body {
+    background-image: url("Party.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #36454F;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: #F5F5F5;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid #CD7F32;
+    border-radius: 10px;
+    position: relative;
+    top: 180px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background:#DE5D83;
+    border: 1px solid #FF69B4;
+}
+
+#save-btn {
+    background: #2E8B57;
+    border: 1px solid #228B22;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+      width: 100%;  /* Full width buttons */
+      padding: 10px;  /* Adjusted padding for touch interfaces */
+      font-size: 18px;  /* Larger text for readability */
+    }
+    
+    .container {
+      padding: 15px;  /* Extra padding to ensure content isn't too close to the edges */
+    }
+    
+    .text {
+      font-size: 16px;  /* Larger font size for readability on smaller screens */
+    }
+  }
+  
